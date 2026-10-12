@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkillSprint - Learn at full speed</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">S</span>
+      <span class="brand-name">SkillSprint</span>
+    </a>
+    <nav class="topnav" id="topnav">
+      <a href="#/" data-nav="catalog">Catalog</a>
+      <a href="#/dashboard" data-nav="dashboard" class="needs-auth hidden">My Learning</a>
+      <a href="#/teach" data-nav="teach" class="needs-auth hidden">Teach</a>
+    </nav>
+    <div class="topbar-actions">
+      <span class="user-chip hidden" id="userChip"></span>
+      <a class="btn btn-ghost hidden" id="loginLink" href="#/login">Log in</a>
+      <a class="btn btn-primary hidden" id="registerLink" href="#/register">Sign up</a>
+      <button class="btn btn-ghost hidden" id="logoutBtn">Log out</button>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">&#9776;</button>
+  </header>
+
+  <main class="container" id="app" aria-live="polite"></main>
+
+  <footer class="footer">
+    <p><strong>SkillSprint</strong> - a learning management system built for the Auspify Technologies internship.</p>
+    <p class="muted">Demo: instructor@example.com / teach123 &nbsp;&middot;&nbsp; demo@example.com / demo123</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
