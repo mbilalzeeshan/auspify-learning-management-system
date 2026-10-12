@@ -1,0 +1,16 @@
+{
+  "name": "learning-management-system",
+  "version": "1.0.0",
+  "description": "SkillSprint - a full-stack learning management system (Auspify Technologies internship)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0"
+  }
+}
